@@ -9,7 +9,7 @@ let totalScore = mathScore + englishScore + biologyScore;
 
 let remark;
 
-if (totalScore >= 100) {
+if (totalScore >= 70) {
     remark = "Excellent";
 } else if (totalScore >= 50 && totalScore <= 69) {
     remark = "Good";
